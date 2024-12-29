@@ -1,11 +1,10 @@
 # Desafio-Springboot
-thumbnail-Desafio Java
+![image](https://github.com/user-attachments/assets/0b61a4b2-a479-4e3e-a307-87cdfa6c07ac)
 Desafio
 Vamos implementar uma aplicação para consultar o valor médio de veículos (carros, motos ou caminhões) de acordo com a tabela FIPE, que pode ser acessada através desse site.
 
 A consulta aos valores dos veículos pelo site tem o seguinte fluxo:
 Primeiramente é necessário escolher o tipo do veículo: carro, moto ou caminhão.
-![image](https://github.com/user-attachments/assets/0b61a4b2-a479-4e3e-a307-87cdfa6c07ac)
 
 Depois disso, é necessário preencher a MARCA, MODELO e ANO para consulta.
 image
