@@ -5,7 +5,7 @@ Vamos implementar uma aplicação para consultar o valor médio de veículos (ca
 
 A consulta aos valores dos veículos pelo site tem o seguinte fluxo:
 Primeiramente é necessário escolher o tipo do veículo: carro, moto ou caminhão.
-image
+![image](https://github.com/user-attachments/assets/0b61a4b2-a479-4e3e-a307-87cdfa6c07ac)
 
 Depois disso, é necessário preencher a MARCA, MODELO e ANO para consulta.
 image
@@ -23,7 +23,7 @@ Após essa escolha, listaremos todos os modelos de veículos daquela marca.
 Solicitaremos que o usuário digite um trecho do modelo que ele quer visualizar, por exemplo PALIO.
 Listaremos apenas os modelos que tiverem a palavra PALIO no nome.
 Usuário escolherá um modelo específico pelo código e, diferente do site, já listaremos as avaliações para TODOS os anos disponíveis daquele modelo, retornando uma lista de forma similar à imagem abaixo:
-image
+![image](https://github.com/user-attachments/assets/417879b4-52b7-428f-816f-895440f11405)
 
 Observações:
 Para realização do desafio faremos o consumo de uma API, documentada nesse link.
@@ -45,7 +45,7 @@ https://parallelum.com.br/fipe/api/v1/carros/marcas/21/modelos/560/anos
 Para saber a avaliação para cada ano disponível, teremos que fazer requisições pelo código por ano, onde obteremos um retorno similar ao que é mostrado abaixo:
 https://parallelum.com.br/fipe/api/v1/carros/marcas/21/modelos/560/anos/2003-1
 
-image
+![image](https://github.com/user-attachments/assets/9250b58e-7ce8-4653-8e7e-15c9b086f36f)
 
 Para podermos exibir em nossa aplicação as avaliações de todos os anos para esse modelo, será necessário trabalhar com as coleções e estruturas de repetição para poder exibir já todos as avaliações de todos os anos para o nosso usuário.
 Utilize a biblioteca Jackson para a desserialização dos dados.
