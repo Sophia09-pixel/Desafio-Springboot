@@ -5,13 +5,15 @@ Vamos implementar uma aplicação para consultar o valor médio de veículos (ca
 
 A consulta aos valores dos veículos pelo site tem o seguinte fluxo:
 Primeiramente é necessário escolher o tipo do veículo: carro, moto ou caminhão.
+![image](https://github.com/user-attachments/assets/40e9acdb-73a2-4694-8773-04e70d48a175)
 
 Depois disso, é necessário preencher a MARCA, MODELO e ANO para consulta.
-image
+![image](https://github.com/user-attachments/assets/05fe1d69-ec7e-42db-8d0f-004b3e3efa4f)
 
 Por fim, é exibida a avaliação apenas daquele ano escolhido.
+![image](https://github.com/user-attachments/assets/61672696-cb0d-44e5-89a3-4397c18e5205)
 
-image
+
 
 🔨 Objetivos do projeto
 O objetivo do projeto é ter um fluxo similar ao que é feito no site, porém com algumas melhorias.
