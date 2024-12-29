@@ -45,7 +45,7 @@ public class Principal {
       dadosVeiculoPorIds.forEach(System.out::println);
 
         System.out.println("Digite o código do modelo do veículo para listar avaliações de todos os anos:");
-        var codVeiculo = entrada.nextInt(); // Código do modelo escolhido
+        var codVeiculo = entrada.nextInt();
 
         json = api.obterDados(ENDERECO + veiculo + APIKEY + "/" + idVeiculo + "/modelos/" + codVeiculo + "/anos");
         System.out.println("Anos disponíveis: " + json);
@@ -58,7 +58,7 @@ public class Principal {
 
 
         for (DadosVeiculoPorAno anoDisponivel : dadosPorAno) {
-            String ano = anoDisponivel.codigo(); // Obtém o código do ano atual
+            String ano = anoDisponivel.codigo();
 
             json = api.obterDados(ENDERECO + veiculo + APIKEY + "/" + idVeiculo + "/modelos/" + codVeiculo + "/anos/" + ano);
             System.out.println("Detalhes para o ano " + ano + ": " + json);
