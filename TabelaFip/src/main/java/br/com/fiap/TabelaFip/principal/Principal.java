@@ -22,7 +22,7 @@ public class Principal {
       System.out.println("Digite qual veiculo voce gostaria de pesquisar -> (carros/motos/caminhoes)");
       var veiculo = entrada.nextLine();
 
-      while(!veiculo.equals("carros") || veiculo.equals("motos") || veiculo.equals("caminhoes")){
+      while (!(veiculo.equals("carros") || veiculo.equals("motos") || veiculo.equals("caminhoes"))) {
           System.out.println("Opção inválida! -> (carros/motos/caminhoes)");
           veiculo = entrada.nextLine();
       }
